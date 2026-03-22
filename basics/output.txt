@@ -1,0 +1,2 @@
+Enter number of elements: Enter 5 integers: Original array: [ 12, 5, 1, 5, 62 ]
+Sorted array:   [ 1, 5, 5, 12, 62 ]
