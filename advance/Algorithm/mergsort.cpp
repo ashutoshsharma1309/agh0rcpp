@@ -22,7 +22,7 @@ void merge(vector<int>& arr, int low, int mid, int high) {
 
 void mergeSort(vector<int>& arr, int low, int high) {
     if (low >= high) return; // Base case: single element
-    int mid = low + (high - low) / 2;
+    int mid = low + (high - low) / 2; 
     
     mergeSort(arr, low, mid);       // Recursively sort left
     mergeSort(arr, mid + 1, high);  // Recursively sort right
